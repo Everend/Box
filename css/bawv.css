@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	background: #092B40;
+}
+#header{
+	margin: 20% auto 0;	
+}
+.msg{
+	margin: 0;
+	color: white;
+	text-align: center;
+}
+.msg a{	
+	text-decoration: none;
+	color: white;	
+}
+div{
+	margin: 20px auto;	
+	padding: 0;
+	width: 40px;
+	height: 40px;	
+	border-radius: 24px;
+	border: 4px solid cyan;
+	box-shadow: 0 0 15px violet;
+	cursor: pointer;
+}
+input{
+	width: 260px;
+	height: 40px;
+	margin-left: -15px;
+	padding: 0 0 0 20px;
+	font: 20px/2 arial;	
+	color: white;
+	background: transparent;
+	border: 0;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	outline: none;	
+}
+span{
+	float: right;
+	padding-right: 10px;
+	font-size: 25px;
+	line-height: 40px;
+	color: violet;
+	user-select: none;
+}
+ul{
+	margin: 20px auto 0;
+	padding: 0;
+	list-style: none;
+}
+ul a{
+	display: block;
+	margin: 0 auto 10px;
+	width: 1100px;
+	text-decoration: none;
+	color: black;
+	background: lightgray;
+}
+ul a:hover{
+	border-left: 4px solid violet;
+	border-right: 4px solid black;
+}
+li{
+	margin: 0;
+	padding-bottom: 20px;	
+	overflow:hidden; /*避免父子元素合并margin，其他解决方法如下:
+	1、设置父元素或自身的display:inline-block;
+	2、设置父元素的border>0;
+	3、设置父元素的padding>0;
+	4、设置父元素或者自身的position:absolute;
+	5、设置父元素非空，填充一定的内容.*/
+}
+h3{
+	margin: 20px 30px;	
+	padding: 0;
+	line-height: 20px;
+	font-size: 20px;
+}
+li p{
+	margin: 0 30px;
+	padding: 0;	
+	line-height: 20px;
+	font-size: 15px;
+}
+@media screen and (min-width: 2733px) and (max-width: 4098px){
+	span{
+		padding-right: 0px;
+	}
+}
+@media screen and (min-width: 4099px){
+	span{
+		padding-right: 0px;
+	}
+	input{
+		width: 259px;
+	}
+}

@@ -1,0 +1,59 @@
+body{
+	background-color:black;
+}
+a{
+	font: 600 20px arial;
+	color: white;
+	text-decoration: none;
+}
+button{
+	border: 0;	
+	border-radius: 4px;
+	outline: 0;
+	cursor: pointer;
+}
+button:hover{
+	opacity: 0.5;
+}
+#content{
+	margin: 90px auto 0;
+	width: 550px;
+	overflow: hidden;
+	background: white;
+}
+.quote{
+	margin :50px 0 0;
+	padding: 0 45px;
+	width: 460px;
+	font: 28px/1.5 arial;
+	text-align: center;
+}
+.author{
+	margin: 10px 45px 0;
+	padding: 0;
+	font-size: 17px;
+	text-align: right;
+}
+#content .btn:first-of-type{
+	margin-left: 45px;
+}
+.btn{
+	margin: 40px 0;
+	width: 40px;
+	height: 40px;	
+	background: black;	
+}
+#new{
+	float: right;
+	margin: 40px 50px;
+	width: 100px;
+	height: 40px;
+	color: white;
+	background: black;
+}
+#i{
+	margin: 20px auto;
+	font-size: 10px;
+	text-align: center;
+	color: white;
+}
