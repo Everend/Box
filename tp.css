@@ -1,0 +1,76 @@
+body{
+	margin:0;
+	zoom: 0.8;
+}
+p{
+	margin: 0;
+	text-align: center;
+}
+a{
+	float: right;
+	line-height: 20px;
+	font-size: 20px;
+	text-decoration: none;
+}
+div#box{
+	margin:50px auto 0;	
+	width: 1000px;
+	padding: 0;
+	overflow: hidden;
+	background: #F0F0F0;
+}
+div p:first-child{
+	padding-top: 30px;
+	font-size: 40px;
+}
+p#ap{	
+	padding-bottom: 10px;
+	font-size: 20px;	
+}
+p#md{
+	padding: 20px 0 0 150px;
+	font-size: 30px;
+	text-align: left;
+}
+ul#u1{
+	margin: 0;
+	padding: 20px 0 0 180px;
+}
+#u1 li{
+	padding-bottom: 10px;
+	width: 670px;
+	font-size: 18px;		
+}
+#u1 li p{
+	text-indent:2em;
+	text-align: left;
+}
+p#rw{
+	padding: 10px 0 0 150px;
+	font-size: 30px;
+	text-align: left;
+}
+ul#u2{
+	margin: 20px 0 0 20px;
+	padding: 0;
+	height: 320px;
+	list-style: none;
+}
+#u2 li{
+	margin: 0 20px 0 0;
+	padding: 0;
+	width: 225px;
+	height: 320px;	
+	float: left;
+}
+#u2 li p{
+	line-height: 10px;
+}
+p#la{
+	margin: 40px 0 40px 50px;
+	padding: 5px 0;
+	width: 900px;
+	font-size:35px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
