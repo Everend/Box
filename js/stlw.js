@@ -13,12 +13,12 @@
 		});
 	}
 	setInterval(update,1000);
-	$.getScript('https://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js',function(){
+	$.getScript('//int.dpool.sina.com.cn/iplookup/iplookup.php?format=js',function(){
 		city = remote_ip_info.city;
 	})
 	$("#click").click(function(){
 		$("#info").find("span:eq(0)").html(city);
-		$.getJSON('https://wthrcdn.etouch.cn/weather_mini?city='+city,function(weather){
+		$.getJSON('//wthrcdn.etouch.cn/weather_mini?city='+city,function(weather){
 			function getNum(x){
 				return x.replace(/[^(\d|\-)]/g,'');
 			}
