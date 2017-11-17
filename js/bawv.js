@@ -18,6 +18,7 @@ $(document).ready(function(){
 		$('div').animate({width:'40px',paddingLeft: '0'},400);
 		$('#tip').show();
 		$('input,span').hide();
+		$('input').val('');
 		$('ul').html('');
 		event.stopPropagation();
 		flag = true;
@@ -40,10 +41,10 @@ $(document).ready(function(){
 						var extract = topten[i].extract;
 						var pageid = page+topten[i].pageid;						
 						li +='<a href=\"'+pageid+'\"target=\"_blank\"><li><h3>'+title+'</h3><p>'+extract+'</p></li></a>';						
-					};
+					}
 					$('ul').html(li);
 				}
-			})			
+			});
 		}
-	})
+	});
 });
